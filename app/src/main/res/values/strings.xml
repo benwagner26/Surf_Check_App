@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Surf Check</string>
+    <string name="txtTitle">The Surf Check</string>
+    <string name="txtChoose">Click the Wave to Check It!</string>
+    <string name="spot1">Blacks</string>
+    <string name="spot2">Lowers</string>
+    <string name="spot3">Salt Creek</string>
+    <string name="spot4">Rincon</string>
+    <string name="imgSlater">slater image</string>
+    <string name="imgCali">cali image</string>
+    <string name="txtBlacks">-- Blacks, San Diego</string>
+    <string name="txtLowers">-- Lowers, San Clemente</string>
+    <string name="txtSaltCreek">-- Salt Creek, Dana Point</string>
+    <string name="txtRincon">-- Rincon, Santa Barbara</string>
+</resources>

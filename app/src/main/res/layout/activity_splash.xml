@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AAB6BA"
+    tools:context=".splash">
+
+    <ImageView
+        android:id="@+id/imgSlater"
+        android:layout_width="633dp"
+        android:layout_height="673dp"
+        android:layout_below="@id/txtTitle"
+        android:contentDescription="@string/imgSlater"
+        app:srcCompat="@drawable/slater_splash"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="casual"
+        android:text="@string/txtTitle"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/california"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtRincon"
+        android:layout_width="168dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="300dp"
+        android:text="@string/txtRincon"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtLowers"
+        android:layout_width="168dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/txtLowers"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtSaltCreek"
+        android:layout_width="168dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/txtSaltCreek"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtBlacks"
+        android:layout_width="168dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="215dp"
+        android:layout_marginTop="600dp"
+        android:text="@string/txtBlacks"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtChoose"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="50dp"
+        android:background="#23465C"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/txtChoose"
+        android:textColor="#FFEB3B"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/spot1"
+        android:layout_width="121dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/spot4"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/wave1" />
+
+    <ImageButton
+        android:id="@+id/spot2"
+        android:layout_width="121dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/spot2"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/wave1" />
+
+    <ImageButton
+        android:id="@+id/spot3"
+        android:layout_width="121dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="455dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/spot3"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/wave1" />
+
+    <ImageButton
+        android:id="@+id/spot4"
+        android:layout_width="121dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="555dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/spot1"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/wave1" />
+
+</RelativeLayout>
